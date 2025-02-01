@@ -4,6 +4,7 @@ import Card from "./components/Card/index";
 import Testimonial from "./components/Testimonial/index";
 import { ImAirplane, ImAlarm } from "react-icons/im";
 import TestimonialText from "./components/Testimonial/TestimonialText";
+import testimonialPic from "./assets/123.webp";
 
 function App() {
   return (
@@ -80,7 +81,7 @@ function App() {
             <Card.Text>Please, complete your next lesson.</Card.Text>
           </Card>
         </div>
-        <Testimonial img="public\123.webp">
+        <Testimonial img={testimonialPic}>
           <Testimonial.Text>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
             porro tempora iste similique. Neque blanditiis similique nostrum
