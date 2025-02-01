@@ -80,7 +80,7 @@ function App() {
             <Card.Text>Please, complete your next lesson.</Card.Text>
           </Card>
         </div>
-        <Testimonial img="src\assets\123.webp">
+        <Testimonial img="public\123.webp">
           <Testimonial.Text>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
             porro tempora iste similique. Neque blanditiis similique nostrum
